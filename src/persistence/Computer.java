@@ -1,12 +1,10 @@
-import
-
 
 public class Computer {
 
     private String name;
-    protected Date date_introduced;
+    private Date date_introduced;
     private Date date_discontinued;
-    private String manufacturer;
+    private Company company;
 
     public Computer() {
     }
@@ -15,7 +13,7 @@ public class Computer {
         this.name = name;
         this.date_introduced = date_introduced;
         this.date_discontinued = date_discontinued;
-        this.manufacturer = manufacturer;
+        this.company = new Company();
     }
 
 
