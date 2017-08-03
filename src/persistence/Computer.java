@@ -16,5 +16,18 @@ public class Computer {
         this.company = new Company();
     }
 
+    public toString() {
+        System.out.println("Computer : " + name + " , "
+                + date_introduced.toString() + " , "
+                + date_discontinued.toString() + " , " +
+                + Company.toString());
+    }
+
+    public test_méthod_To_String() {
+        Computer c1 = new Computer("j1",
+                01/08/2013, 01/05/2017, "apple");
+        c1.toString();
+    }
+
 
 }
